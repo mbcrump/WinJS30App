@@ -3,7 +3,6 @@
 
 [Telerik](http://www.telerik.com)
 
-[@mbcrump](http://twitter.com/mbcrump)
+[Demo](https://rawgit.com/mbcrump/WinJS30App/master/index.html)
 
-
-[Demos](https://rawgit.com/mbcrump/WinJS30App/master/index.html)
+[Find me on Twitter](http://twitter.com/mbcrump)
