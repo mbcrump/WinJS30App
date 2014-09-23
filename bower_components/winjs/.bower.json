@@ -1,0 +1,20 @@
+{
+  "name": "winjs",
+  "main": [
+    "js/WinJS.js",
+    "css/ui-dark.css",
+    "fonts/Symbols.ttf"
+  ],
+  "dependencies": {},
+  "homepage": "https://github.com/winjs/winjs-bower",
+  "_release": "72dc10d850",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "72dc10d8506371662f290d7aab2b429a3a63bd1b"
+  },
+  "_source": "git://github.com/winjs/winjs-bower.git",
+  "_target": "*",
+  "_originalSource": "winjs",
+  "_direct": true
+}
