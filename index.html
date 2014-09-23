@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="bower_components/winjs/css/ui-dark.css">
+    <link rel="stylesheet" type="text/css" href="flipview.css">
+    <script src="bower_components/winjs/js/base.js"></script>
+    <script src="bower_components/winjs/js/ui.js"></script>
+    <script src="script.js"></script>
+
+    <title>Win JS App</title>
+</head>
+<body>
+
+<div class="simple_ItemTemplate" data-win-control="WinJS.Binding.Template" style="display: none">
+    <div class="overlaidItemTemplate">
+        <img class="image" data-win-bind="src: picture; alt: title" />
+        <div class="overlay">
+            <h2 class="ItemTitle" data-win-bind="textContent: title"></h2>
+        </div>
+    </div>
+</div>
+<div id="simple_FlipView" class="flipView" data-win-control="WinJS.UI.FlipView" data-win-options="{
+        itemDataSource: DefaultData.bindingList.dataSource,
+        itemTemplate: select('.simple_ItemTemplate')
+     }">
+
+
+</div>
+
+</body>
+</html>
