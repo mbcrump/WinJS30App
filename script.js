@@ -1,10 +1,7 @@
 var array = [
-    { type: "item", title: "Michael Crump", picture: "http://developer.telerik.com/wp-content/uploads/userphoto/71.png" },
-    { type: "item", title: "Burke Holland", picture: "http://developer.telerik.com/wp-content/uploads/userphoto/1.png" },
-    { type: "item", title: "Jeff Fritz", picture: "http://developer.telerik.com/wp-content/uploads/userphoto/61.jpeg" },
-    { type: "item", title: "Brian Rinaldi", picture: "http://developer.telerik.com/wp-content/uploads/userphoto/11.jpeg" },
-    { type: "item", title: "Sam Basu", picture: "http://developer.telerik.com/wp-content/uploads/userphoto/161.jpeg" }
-
+    { type: "item", title: "Paris", picture: "images/1.jpg" },
+    { type: "item", title: "Hong Kong", picture: "images/2.jpg" },
+    { type: "item", title: "Barcelona", picture: "images/3.jpg" }
 ];
 var bindingList = new WinJS.Binding.List(array);
 
